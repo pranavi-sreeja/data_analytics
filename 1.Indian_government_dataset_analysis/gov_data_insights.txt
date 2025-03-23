@@ -1,0 +1,33 @@
+Initial Analysis of the Dataset
+
+##Dataset Overview:
+* The dataset contains 3,312 rows and 11 columns.
+* It records the pollution levels across various states and cities in India.
+* The dataset has 196 missing values.
+* The data types include text (categorical) and numerical values.
+
+##Key Analysis:
+*The dataset contains pollution data from various cities and monitoring stations across India.
+*Some states and cities have higher concentrations of specific pollutants than others.
+*The dataset includes pollutants like PM10, NO2, CO, OZONE, and NH3.
+*PM10 and NO2 are among the most frequently recorded pollutants.
+*Pollution levels vary by state and city, possibly due to industrial activity, vehicle emissions, and population density.
+
+## Dataset Observations:
+
+1. Date Range & Missing Data:
+   - The dataset has 196 missing values
+   - The missing values are replaced with median for better efficiency
+
+2. High Pollution in Major Cities:
+     - Cities like Delhi, Mumbai, Hyderabad, and Kolkata have consistently high pollution levels due to heavy traffic and industrial activities.
+
+3. Dominant Pollutants:
+          - PM10 and NO2 are the most common pollutants, indicating that vehicle emissions and construction activities are major contributors to pollution.
+           - Some cities show higher levels of NH3, likely due to agricultural activities and waste processing.
+4. Statistical Insights:
+       - The T-test confirmed that PM10 and NO2 levels are significantly different, meaning they may come from different sources.
+        - The Chi-Square Test showed no significant relationship between the type of pollutant and the city, meaning pollution sources are common across multiple cities.
+
+5. Pollution Spikes in Urban Areas:
+       - Metropolitan areas experience frequent pollution spikes, while smaller cities show more stable pollution levels.
